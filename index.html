@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Battledome</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="quiz.css">
+
+</head>
+<body>
+
+  <h1>WELCOME TO THE BATTLEDOME BITCH</h1>
+  <section id="player-setup" class="card card--name">
+  <article id="game-container">
+    <section id="robot-select" class="card card--robot">
+      <div class="card__prompt">
+        <div><h2>CHOOSE YOUR BATTLEBOT</h2></div>      
+        <div>
+          <a class ="card__back btn btn--small"
+              previous="card--name">
+              <span class="btn__prompt">&lt;</span>
+              <span class="btn__text">Back</span>
+            </a>
+          </div>
+      </div>
+    </section>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card__button modelType" id="Cheetah">
+            <a class="class__Link btn btn--big btn--blue">
+              <span class="btn__prompt"></span>
+              <span class="btn__text">Cheetah</span>
+            </a>
+          </div>
+
+          <div class="card__button modelType" id="Warthog">
+            <a class="class__Link btn btn--big btn--blue">
+              <span class="btn__prompt"></span>
+              <span class="btn__text">Warthog</span>
+            </a>
+          </div>
+
+
+          <div class="card__button modelType" id="Falcon">
+            <a class="class__Link btn btn--big btn--blue">
+              <span class="btn__prompt"></span>
+              <span class="btn__text">Falcon</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card__button modelType" id="Osprey">
+            <a class="class__Link btn btn--big btn--blue">
+              <span class="btn__prompt"></span>
+              <span class="btn__text">Osprey</span>
+            </a>
+          </div>
+
+
+          <div class="card__button modelType" id="Raptor">
+            <a class="class__Link btn btn--big btn--blue">
+              <span class="btn__prompt"></span>
+              <span class="btn__text">Raptor</span>
+            </a>
+          </div>
+
+
+          <div class="card__button modelType" id="Rex">
+            <a class="class__Link btn btn--big btn--blue">
+              <span class="btn__prompt"></span>
+              <span class="btn__text">Rex</span>
+            </a>
+          </div>
+        </div>
+      </div>      
+    </div>
+
+    <div class="card__button">
+      <a class="card__Link btn btn--big btn--orange" next="card--weapon">
+        <span class="btn__prompt"></span>
+        <span class="btn__txt">Select Weapon</span>
+      </a>
+    </div>
+  </section>
+  
+  <section id="weapon-select" class="card card--weapon">
+    <div class="card__prompt">
+      <div><h2>Choose Your Tool of Destruction</h2></div>
+      <div>
+        <a class="card__back btn btn--small" previous="card--robot">
+          <span class="btn__prompt">&lt;</span>
+          <span class="btn__text">Back</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-sm-2">
+      <div class="card__button sledge">
+        <a class="class__Link btn btn-big btn--blue one">
+          <span class="btn__prompt"></span>
+          <span class="btn_text">Sledge Hammer</span>
+        </a>
+      </div>
+     
+
+      <div class="card__button laser">
+        <a class="class__Link btn btn-big btn--blue two">
+         <span class="btn__prompt"></span>
+          <span class="btn_text">Laser</span>
+        </a>
+      </div>
+     
+
+      <div class="card__button rockets">
+        <a class="class__Link btn btn-big btn--blue three">
+          <span class="btn__prompt"></span>
+          <span class="btn_text">Rockets</span>
+        </a>
+      </div>
+     
+
+      <div class="card__button chainsaw">
+        <a class="class__Link btn btn-big btn--blue four">
+          <span class="btn__prompt"></span>
+          <span class="btn_text">Chain Saw</span>
+        </a>
+      </div>
+     
+
+      <div class="card__button flamethrower">
+        <a class="class__Link btn btn-big btn--blue five">
+          <span class="btn__prompt"></span>
+          <span class="btn_text">Flamethrower</span>
+        </a>
+      </div>
+     
+
+      <div class="card__button machinegun">
+        <a class="class__Link btn btn-big btn--blue six">
+          <span class="btn__prompt"></span>
+          <span class="btn_text">Machine Gun</span>
+        </a>
+      </div>
+      </div> 
+  </section>
+
+
+
+
+
+  <section id="mod-select" class="card card--mod">
+    <div class="card__prompt">
+      <div><h2>The Mod Locker</h2></div>
+      <div>
+        <a class="card__back btn btn--small" previous="card--weapon">
+          <span class="btn__prompt">&lt;</span>
+          <span class="btn__text">Back</span>
+        </a>
+      </div>
+    </div>
+     
+    <div class="col-sm-2">
+      <div class="card__button jetpack">
+        <a class="class__Link btn btn-big btn--blue one">
+         <span class="btn__prompt"></span>
+         <span class="btn_text">Jet Pack</span>
+        </a>
+     </div>
+
+     <div class="card__button cloaking">
+       <a class="class__Link btn btn-big btn--blue two">
+         <span class="btn__prompt"></span>
+         <span class="btn_text">Cloaking</span>
+       </a>
+      </div>
+
+      <div class="card__button energyshield">
+        <a class="class__Link btn btn-big btn--blue three">
+         <span class="btn__prompt"></span>
+          <span class="btn_text">Energy Shield</span>
+        </a>
+      </div>
+
+     <div class="card__button emp">
+        <a class="class__Link btn btn-big btn--blue four">
+          <span class="btn__prompt"></span>
+          <span class="btn_text">EMP</span>
+        </a>
+      </div>
+
+      <div class="card__button overdrive">
+        <a class="class__Link btn btn-big btn--blue five">
+          <span class="btn__prompt"></span>
+          <span class="btn_text">Overdrive</span>
+        </a>
+      </div>
+
+      <div class="card__button teleport">
+        <a class="class__Link btn btn-big btn--blue six">
+          <span class="btn__prompt"></span>
+          <span class="btn_text">Teleport</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+</article>
+
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="javascripts/quiz.js"></script>
+  <script type="text/javascript" src="javascripts/robot.js"></script>
+  <script type="text/javascript" src="javascripts/weapons.js"></script>
+  <script type="text/javascript" src="javascripts/mods.js"></script>
+
+</body>
+</html>

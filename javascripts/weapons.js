@@ -22,8 +22,8 @@ originalBattleDome.Armory.Weapon = function (){
 ////////////////////  
 
 originalBattleDome.Armory.SledgeHammer = function (){
-  this.name = "Sledge Hammer";
-  this.damage = "";
+  this.name = "SledgeHammer";
+  this.damage = Math.ceil((Math.random() * 35) +(Math.random() * 50));
 };
 
 originalBattleDome.Armory.SledgeHammer.prototype = new originalBattleDome.Armory.Weapon();
@@ -35,7 +35,7 @@ originalBattleDome.Armory.SledgeHammer.prototype = new originalBattleDome.Armory
 
 originalBattleDome.Armory.Laser = function (){
   this.name = "Laser";
-  this.damage = "";
+  this.damage = Math.ceil((Math.random() * 55) + (Math.random() * 70));
 };
 
 originalBattleDome.Armory.Laser.prototype = new originalBattleDome.Armory.Weapon();
@@ -46,7 +46,7 @@ originalBattleDome.Armory.Laser.prototype = new originalBattleDome.Armory.Weapon
 ///////////////////
 originalBattleDome.Armory.Rockets = function (){
   this.name = "Rockets";
-  this.damage = "";
+  this.damage = Math.ceil((Math.random() * 50) +(Math.random() * 50));
 };
 
 originalBattleDome.Armory.Rockets.prototype = new originalBattleDome.Armory.Weapon();
@@ -57,7 +57,7 @@ originalBattleDome.Armory.Rockets.prototype = new originalBattleDome.Armory.Weap
 
 originalBattleDome.Armory.Chainsaw = function (){
   this.name = "Chainsaw";
-  this.damage = "";
+  this.damage = Math.ceil((Math.random() * 25) +(Math.random() * 30));
 };
 
 originalBattleDome.Armory.Chainsaw.prototype = new originalBattleDome.Armory.Weapon();
@@ -69,7 +69,7 @@ originalBattleDome.Armory.Chainsaw.prototype = new originalBattleDome.Armory.Wea
 
 originalBattleDome.Armory.Flamethrower = function (){
   this.name = "Flamethrower";
-  this.damage = "";
+  this.damage = Math.ceil((Math.random() * 20) +(Math.random() * 50));
 };
 
 originalBattleDome.Armory.Flamethrower.prototype = new originalBattleDome.Armory.Weapon();
@@ -79,8 +79,8 @@ originalBattleDome.Armory.Flamethrower.prototype = new originalBattleDome.Armory
 ////////////////////////
 
 originalBattleDome.Armory.MachineGun = function (){
-  this.name = "Machine Gun";
-  this.damage = "";
+  this.name = "MachineGun";
+  this.damage = Math.ceil((Math.random() * 50) + 25);
 };
 
 originalBattleDome.Armory.MachineGun.prototype = new originalBattleDome.Armory.Weapon();

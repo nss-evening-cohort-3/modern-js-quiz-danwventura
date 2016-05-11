@@ -9,18 +9,17 @@ var BattleDome = (function (originalBattleDome){
 ////////////////////////////
 
  originalBattleDome.Robot = function(){
-    this.proto = "Robot"
+    this.proto = "Robot";
   };
   
  /////////////////////
 ///Type I: ATV///////
 ////////////////////
   originalBattleDome.ATV = function(){
-    this.type= "ATV"
+    this.type= "ATV";
   };
 
   originalBattleDome.ATV.prototype = new originalBattleDome.Robot();  
-
 
 
 ////////////////////
@@ -61,7 +60,7 @@ var BattleDome = (function (originalBattleDome){
 ///////////////////////
 
   originalBattleDome.Drone = function(){
-    this.type = "Drone"
+    this.type = "Drone";
 
   };
 
@@ -106,7 +105,7 @@ var BattleDome = (function (originalBattleDome){
 ///////////////////////////
 
   originalBattleDome.Bipedal = function(){
-    this.type = "Bipedal"
+    this.type = "Bipedal";
   };
 
 
